@@ -82,7 +82,7 @@ ul {
 /* ------------ШАПКА-------------- */
 
 .header {
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 .nav-flex {
@@ -109,8 +109,8 @@ ul {
 
 .header-nav-link {
   display: block;
-  padding-top: 24px;
-  padding-bottom: 25px;
+  padding-top: 32px;
+  padding-bottom: 32px;
 
   font-weight: 500;
   font-size: 14px;
@@ -210,6 +210,7 @@ ul {
 
 .features-item:not(:last-child) {
   margin-right: 30px;
+  max-width: 270px;
 }
 
 .features-title {
@@ -260,18 +261,19 @@ ul {
   margin-right: 30px;
 }
 
-.team-worker {
-  margin-top: 30px;
+.team-workers {
+  padding: 30px 0px;
+}
 
+.team-worker {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.19px;
+  line-height: 1.19;
   text-align: center;
 }
 
 .team-profession {
   margin-top: 10px;
-  margin-bottom: 30px;
 
   font-size: 16px;
   line-height: 1.19;
@@ -314,7 +316,7 @@ ul {
 .portfolio-btn-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 15px;
+  margin-bottom: 50px;
 }
 
 .portfolio-btn-item:not(:last-child) {
@@ -348,7 +350,6 @@ ul {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  padding-top: 50px;
   padding-bottom: 50px;
   margin: -15px;
 }
