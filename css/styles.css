@@ -310,7 +310,7 @@ ul {
 
 .portfolio-section {
   padding-top: 94px;
-  /* margin-bottom: 15px; */
+  padding-bottom: 94px;
 }
 
 .portfolio-btn-list {
@@ -350,7 +350,6 @@ ul {
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
-  padding-bottom: 50px;
   margin: -15px;
 }
 
